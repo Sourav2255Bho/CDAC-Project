@@ -1,0 +1,16 @@
+.parallel{
+    display: flex;
+    
+    .left{
+        width: 50vw;
+        background-color: white;
+        padding: 10px;
+        height: 100vh;
+    }
+    .right{
+        width: 50vw;
+        background-color: white;
+        padding: 10px;
+        height: 100vh;
+    }
+}

@@ -1,0 +1,43 @@
+    .nav1{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        gap: 950px;
+        
+        .nav1-1{
+            display: flex;
+            width: 110px;
+            justify-content: space-between;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+                padding: 10px;
+                &:hover {
+                    color: green;
+                }
+            }
+        }
+        .nav1-p {
+            display: flex;
+            flex-direction: column;
+            
+            width: 100px;
+            justify-content: space-between;
+            padding: 10px 10px;
+            position: relative; // Ensure dropdown is positioned relative to this container
+          
+            // Targeting the link inside .nav1-p on hover of .nav1-p
+            &:hover a {
+              transform: translateX(50px); // Moves the link to the right by 50px on hover
+            }
+          
+            a {
+              text-decoration: none;
+              color: black;
+              font-size: 18px;
+              transition: transform 0.3s ease; // Smooth transition effect
+            }
+        }
+        
+    }
